@@ -1,0 +1,17 @@
+import styled from "styled-components";
+import elipse f
+
+const MainStyled = styled.main`
+    background-color: #1F1F1F;
+`
+
+const Background = ({ children }) => {
+    return (
+        <MainStyled>
+            <img src="../../assets/Ellipse" alt="elipe azul escuro borrado" />
+            {children}
+        </MainStyled>
+      );
+}
+ 
+export default Background;
