@@ -29,7 +29,7 @@ function App() {
           <p>{userData.bio}</p>
           <img src={userData.avatar_url} alt={`${userData.name}'s avatar`} />
         </div>
-      )}
+}
     </Background>
   )
 }

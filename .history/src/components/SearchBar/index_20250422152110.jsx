@@ -61,8 +61,6 @@ const SearchBar = ({ onSearch }) => {
             <form onSubmit={handleSubmit}>
                 <InputStyled
                     type="text"
-                    value={input}
-                    onChange={(e) => setInput(e.target.value)}
                     placeholder="Digite um usuário do Github"
                 />
                 <SearchButton>

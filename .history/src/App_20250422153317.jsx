@@ -9,7 +9,7 @@ function App() {
   const [username, setUsername] = useState("");
   const [userData, setUserData] = useState(null);
 
-  const handleSearch = async (search) => {
+  const handleSearch = async(search) => {
     setUsername(search);
     try {
       const data = await fetchUserData(search);
@@ -22,14 +22,7 @@ function App() {
   return (
     <Background>
       <Title />
-      <SearchBar onSearch={handleSearch} />
-      {userData && (
-        <div>
-          <h2>{userData.name}</h2>
-          <p>{userData.bio}</p>
-          <img src={userData.avatar_url} alt={`${userData.name}'s avatar`} />
-        </div>
-      )}
+      <SearchBar onSearch={handleSearch}/>
     </Background>
   )
 }

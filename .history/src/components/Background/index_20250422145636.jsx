@@ -2,7 +2,7 @@ import styled from "styled-components";
 import elipse from "../../assets/Ellipse.svg";
 import layer from "../../assets/Layer.svg";
 
-const BodyStyled = styled.div`
+const BodyStyled = styled.main`
     display: flex;
     position: relative;
     justify-content: center;
@@ -16,22 +16,22 @@ const BodyStyled = styled.div`
 
 const Elipse1 =styled.img`
     position: absolute;
-    right: 0;
-    top: 0;
+    left: 45rem;
+    bottom: 12rem;
     z-index: -1;
 `
 
 const Elipse2 = styled.img`
     position: absolute;
-    left: 0;
-    bottom: 0;
+    left: 0rem;
+    bottom: 0rem;
     rotate: 180deg;
     z-index: -1;
 `
 const Layer = styled.img`
     position: absolute;
     left: 8rem;
-    top: 2rem;
+    bottom: 25rem;
     rotate: 180deg;
     z-index: -1;
 `

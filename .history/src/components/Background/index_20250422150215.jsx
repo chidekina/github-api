@@ -17,7 +17,7 @@ const BodyStyled = styled.div`
 const Elipse1 =styled.img`
     position: absolute;
     right: 0;
-    top: 0;
+    top: 12rem;
     z-index: -1;
 `
 
@@ -31,7 +31,7 @@ const Elipse2 = styled.img`
 const Layer = styled.img`
     position: absolute;
     left: 8rem;
-    top: 2rem;
+    bottom: 25rem;
     rotate: 180deg;
     z-index: -1;
 `

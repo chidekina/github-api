@@ -51,26 +51,16 @@ const SearchBar = ({ onSearch }) => {
     const [input, setInput] = useState("");
 
     const handleSubmit = (e) => {
-        e.preventDefault();
-        if (onSearch) {
-            onSearch(input)
-        }
+        e.preventDefault()
     }
-    return (
+    return ( 
         <SearchBarStyled>
-            <form onSubmit={handleSubmit}>
-                <InputStyled
-                    type="text"
-                    value={input}
-                    onChange={(e) => setInput(e.target.value)}
-                    placeholder="Digite um usuário do Github"
-                />
-                <SearchButton>
-                    <img src={search} alt="icone de uma lupa" />
-                </SearchButton>
-            </form>
+        <InputStyled type="text" placeholder="Digite um usuário do Github" />
+        <SearchButton>
+            <img src={search} alt="icone de uma lupa" />
+        </SearchButton>
         </SearchBarStyled>
-    );
+     );
 }
-
+ 
 export default SearchBar;

@@ -31,7 +31,7 @@ const Elipse2 = styled.img`
 const Layer = styled.img`
     position: absolute;
     left: 8rem;
-    top: 2rem;
+    bottom: 25rem;
     rotate: 180deg;
     z-index: -1;
 `

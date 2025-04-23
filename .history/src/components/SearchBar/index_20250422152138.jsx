@@ -62,7 +62,7 @@ const SearchBar = ({ onSearch }) => {
                 <InputStyled
                     type="text"
                     value={input}
-                    onChange={(e) => setInput(e.target.value)}
+                    onChange={(e) => setInput.}
                     placeholder="Digite um usuário do Github"
                 />
                 <SearchButton>
