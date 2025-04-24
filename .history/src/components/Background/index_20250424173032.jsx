@@ -32,6 +32,7 @@ const Layer = styled.img`
     position: absolute;
     left: 8rem;
     top: 0rem;
+    rotate: 180deg;
     z-index: -1;
 `
 
