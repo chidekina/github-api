@@ -21,7 +21,7 @@ const Elipse1 =styled.img`
     z-index: -1;
 
     @media only screen and (max-width: 426px) {
-        width: 14rem;
+        width: 12rem;
     }
 `
 
@@ -33,18 +33,13 @@ const Elipse2 = styled.img`
     z-index: -1;
 
     @media only screen and (max-width: 426px) {
-        width: 14rem;
-    }
+
 `
 const Layer = styled.img`
     position: absolute;
     left: 8rem;
     top: 0rem;
     z-index: -1;
-
-    @media only screen and (max-width: 426px) {
-        right: 20rem;
-    }
 `
 
 const MainStyled = styled.main`

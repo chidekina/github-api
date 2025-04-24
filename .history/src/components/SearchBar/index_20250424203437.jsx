@@ -50,8 +50,7 @@ const SearchButton = styled.button`
     }
 
     @media only screen and (max-width: 426px) {
-    left: 14rem;
-    }
+
 
 `
 

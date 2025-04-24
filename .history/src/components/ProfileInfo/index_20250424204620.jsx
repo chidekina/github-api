@@ -69,7 +69,7 @@ const ProfileNotFound = styled.div`
     gap: 2rem;
 
     & h2 {
-      color: red;
+      color: #005CFF;
       font-weight: bold;
       font-size: 20px;  
     }
@@ -99,13 +99,13 @@ const ProfileInfo = ({ profile, error }) => {
         return (
             <ProfileStyled>
                 <img src={notFound} alt="" />
-                <ProfileNotFound>
+                <ProfileInfoStyled>
                     <h2>😬 Usuário não encontrado!</h2>
                     <p>
                         Parece que esse perfil do GitHub caiu em um buraco negro ou foi abduzido por aliens.<br></br>
                         Tente outro nome de usuário. 👽🚀
                     </p>
-                </ProfileNotFound>
+                </ProfileInfoStyled>
             </ProfileStyled>
         );
     }

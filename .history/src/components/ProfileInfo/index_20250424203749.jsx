@@ -18,18 +18,8 @@ const ProfileStyled = styled.div`
     }
 
     @media only screen and (max-width: 426px) {
-        margin-top: 1rem;
-        gap: 1rem;
-        width: 240px;
-        padding: 15px 18px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
-        & img {
-            width: 100px;
-            height: 100px;
-        }
+    width: 200px;
+    
     }
 `
 
@@ -47,50 +37,6 @@ const ProfileInfoStyled = styled.div`
     & p {
         font-size: 15px;
     }
-
-    @media only screen and (max-width: 426px) {
-     gap: 0.5rem;
-     align-items: center;
-     text-align: center;
-
-     & h2 {
-        font-size: 15px;
-     }
-
-     & p {
-        font-size: 14px;
-     }
-    }
-`
-
-const ProfileNotFound = styled.div`
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-
-    & h2 {
-      color: red;
-      font-weight: bold;
-      font-size: 20px;  
-    }
-
-    & p {
-        font-size: 15px;
-    }
-
-    @media only screen and (max-width: 426px) {
-     gap: 0.5rem;
-     align-items: center;
-     text-align: center;
-
-     & h2 {
-        font-size: 15px;
-     }
-
-     & p {
-        font-size: 14px;
-     }
-    }
 `
 
 const ProfileInfo = ({ profile, error }) => {
@@ -99,18 +45,18 @@ const ProfileInfo = ({ profile, error }) => {
         return (
             <ProfileStyled>
                 <img src={notFound} alt="" />
-                <ProfileNotFound>
-                    <h2>😬 Usuário não encontrado!</h2>
-                    <p>
-                        Parece que esse perfil do GitHub caiu em um buraco negro ou foi abduzido por aliens.<br></br>
-                        Tente outro nome de usuário. 👽🚀
-                    </p>
-                </ProfileNotFound>
+                <ProfileInfoStyled>
+                <h2>😬 Usuário não encontrado!</h2>
+                <p>
+                    Parece que esse perfil do GitHub caiu em um buraco negro ou foi abduzido por aliens.<br></br>
+                    Tente outro nome de usuário. 👽🚀
+                </p>
+                </ProfileInfoStyled>
             </ProfileStyled>
         );
     }
 
-    if (!profile) return null;
+    if(!profile) return null;
 
     const bio = profile.bio?.trim();
 
@@ -122,7 +68,7 @@ const ProfileInfo = ({ profile, error }) => {
         "Nada por aqui. Só o silêncio e a curiosidade..."
     ];
 
-    const getRandomFallback = () =>
+    const getRandomFallback = () => 
         fallbackBios[Math.floor(Math.random() * fallbackBios.length)];
 
     return (

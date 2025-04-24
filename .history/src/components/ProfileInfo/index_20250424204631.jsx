@@ -99,13 +99,13 @@ const ProfileInfo = ({ profile, error }) => {
         return (
             <ProfileStyled>
                 <img src={notFound} alt="" />
-                <ProfileNotFound>
+                <Profil>
                     <h2>😬 Usuário não encontrado!</h2>
                     <p>
                         Parece que esse perfil do GitHub caiu em um buraco negro ou foi abduzido por aliens.<br></br>
                         Tente outro nome de usuário. 👽🚀
                     </p>
-                </ProfileNotFound>
+                </Profil>
             </ProfileStyled>
         );
     }

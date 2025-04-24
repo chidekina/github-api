@@ -23,7 +23,7 @@ const InputStyled = styled.input`
     }
 
     @media only screen and (max-width: 426px) {
-    width: 16rem;
+    
     }
 `
 
@@ -47,10 +47,6 @@ const SearchButton = styled.button`
 
     & img {
         width: 1rem;
-    }
-
-    @media only screen and (max-width: 426px) {
-    left: 14rem;
     }
 
 `

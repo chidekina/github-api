@@ -20,28 +20,13 @@ const TitleContainer = styled.div`
     }
 
     @media only screen and (max-width: 426px) {
-        
-    .git-mark {
-    width: 12%;
-    object-fit: contain;
-    height: fit-content;
-}
-    .git-logo {
-    width: 36%;
-    object-fit: contain;
-    height: fit-content;
-    }
-    }
+
 `
 
 const TitleStyled = styled.h1`
     color: white;
     font-size: 3rem;
     font-weight: 600;
-
-    @media only screen and (max-width: 426px) {
-    font-size: 2.2rem;
-    }
 `
 
 const Title = () => {

@@ -43,8 +43,7 @@ const Layer = styled.img`
     z-index: -1;
 
     @media only screen and (max-width: 426px) {
-        right: 20rem;
-    }
+
 `
 
 const MainStyled = styled.main`

@@ -27,7 +27,7 @@ const TitleContainer = styled.div`
     height: fit-content;
 }
     .git-logo {
-    width: 36%;
+    width: 35%;
     object-fit: contain;
     height: fit-content;
     }

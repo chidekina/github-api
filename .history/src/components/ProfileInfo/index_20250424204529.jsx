@@ -64,6 +64,38 @@ const ProfileInfoStyled = styled.div`
 `
 
 const ProfileNotFound = styled.div`
+        margin-top: 2rem;
+    background-color: #D9D9D9;
+    padding: 30px 18px;
+    border-radius: 25px;
+    display: flex;
+    gap: 2rem;
+    width: 804px;
+    height: 240px;
+
+    & img {
+        width: 220px;
+        height: 220px;
+        border-radius: 100%;
+    }
+
+    @media only screen and (max-width: 426px) {
+        margin-top: 1rem;
+        gap: 1rem;
+        width: 240px;
+        padding: 15px 18px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        & img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+`
+
+const ProfileInfoStyled = styled.div`
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -99,13 +131,13 @@ const ProfileInfo = ({ profile, error }) => {
         return (
             <ProfileStyled>
                 <img src={notFound} alt="" />
-                <ProfileNotFound>
+                <Profi/>le>
                     <h2>😬 Usuário não encontrado!</h2>
                     <p>
                         Parece que esse perfil do GitHub caiu em um buraco negro ou foi abduzido por aliens.<br></br>
                         Tente outro nome de usuário. 👽🚀
                     </p>
-                </ProfileNotFound>
+                </Profile>
             </ProfileStyled>
         );
     }

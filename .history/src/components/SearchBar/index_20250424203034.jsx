@@ -49,10 +49,6 @@ const SearchButton = styled.button`
         width: 1rem;
     }
 
-    @media only screen and (max-width: 426px) {
-    left: 14rem;
-    }
-
 `
 
 const SearchBar = ({ onSearch }) => {
