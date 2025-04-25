@@ -39,7 +39,7 @@ const Elipse2 = styled.img`
     @media only screen and (max-width: 768px) {
         width: 20rem;
     }
-
+    
     @media only screen and (max-width: 480px) {
         width: 14rem;
     }
@@ -64,13 +64,13 @@ const MainStyled = styled.main`
     z-index: 10;
     align-items: center;
 
-    @media only screen and (max-width: 768px) {
-        width: 40rem;
-    }
-
     @media only screen and (max-width: 480px) {
         width: 20rem;
         height: 32rem;
+    }
+
+    @media only screen and (max-width: 768px) {
+        width: 40rem;
     }
 `
 

@@ -32,6 +32,7 @@ const TitleContainer = styled.div`
     }
     }
 
+    
     @media only screen and (max-width: 480px) {
         
         .git-mark {

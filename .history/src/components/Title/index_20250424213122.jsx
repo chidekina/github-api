@@ -19,6 +19,7 @@ const TitleContainer = styled.div`
     height: fit-content;
     }
 
+
     @media only screen and (max-width: 768px) {
     .git-mark {
     width: 8%;
@@ -31,20 +32,6 @@ const TitleContainer = styled.div`
     height: fit-content;
     }
     }
-
-    @media only screen and (max-width: 480px) {
-        
-        .git-mark {
-        width: 12%;
-        object-fit: contain;
-        height: fit-content;
-    }
-        .git-logo {
-        width: 36%;
-        object-fit: contain;
-        height: fit-content;
-        }
-        }
 `
 
 const TitleStyled = styled.h1`

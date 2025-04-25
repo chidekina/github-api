@@ -21,21 +21,6 @@ const ProfileStyled = styled.div`
     @media only screen and (max-width: 768px) {
         width: 500px;
     }
-
-    @media only screen and (max-width: 480px) {
-        margin-top: 1rem;
-        gap: 1rem;
-        width: 240px;
-        padding: 15px 18px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
-        & img {
-            width: 100px;
-            height: 100px;
-        }
-    }
 `
 
 const ProfileInfoStyled = styled.div`
