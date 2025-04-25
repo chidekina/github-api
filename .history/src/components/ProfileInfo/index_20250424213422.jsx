@@ -22,7 +22,7 @@ const ProfileStyled = styled.div`
         width: 500px;
     }
 
-    @media only screen and (max-width: 652px) {
+    @media only screen and (max-width: 520px) {
         margin-top: 1rem;
         gap: 1rem;
         width: 240px;
@@ -53,7 +53,7 @@ const ProfileInfoStyled = styled.div`
         font-size: 15px;
     }
 
-    @media only screen and (max-width: 652px) {
+    @media only screen and (max-width: 520px) {
      gap: 0.5rem;
      align-items: center;
      text-align: center;
@@ -83,7 +83,7 @@ const ProfileNotFound = styled.div`
         font-size: 15px;
     }
 
-    @media only screen and (max-width: 652px) {
+    @media only screen and (max-width: 520px) {
      gap: 0.5rem;
      align-items: center;
      text-align: center;

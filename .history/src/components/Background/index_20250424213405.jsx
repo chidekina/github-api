@@ -20,7 +20,7 @@ const Elipse1 =styled.img`
     top: 0;
     z-index: -1;
 
-    @media only screen and (max-width: 480px) {
+    @media only screen and (max-width: 520px) {
         width: 14rem;
     }
 
@@ -40,7 +40,7 @@ const Elipse2 = styled.img`
         width: 20rem;
     }
 
-    @media only screen and (max-width: 480px) {
+    @media only screen and (max-width: 520px) {
         width: 14rem;
     }
 `
@@ -50,7 +50,7 @@ const Layer = styled.img`
     top: 0rem;
     z-index: -1;
 
-    @media only screen and (max-width: 480px) {
+    @media only screen and (max-width: 520px) {
         right: 20rem;
     }
 `
@@ -64,11 +64,11 @@ const MainStyled = styled.main`
     z-index: 10;
     align-items: center;
 
-        @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 768px) {
         width: 40rem;
     }
 
-    @media only screen and (max-width: 480px) {
+    @media only screen and (max-width: 520px) {
         width: 20rem;
         height: 32rem;
     }
