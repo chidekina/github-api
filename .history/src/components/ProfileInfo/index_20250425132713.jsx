@@ -63,7 +63,7 @@ const ProfileInfoStyled = styled.div`
      }
 
      & p {
-        font-size: 12px;
+        font-size: 14px;
      }
     }
 `
@@ -93,7 +93,7 @@ const ProfileNotFound = styled.div`
      }
 
      & p {
-        font-size: 12px;
+        font-size: 14px;
      }
     }
 `

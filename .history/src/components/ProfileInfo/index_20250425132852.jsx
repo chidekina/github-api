@@ -63,7 +63,7 @@ const ProfileInfoStyled = styled.div`
      }
 
      & p {
-        font-size: 12px;
+        font-size: 14px;
      }
     }
 `
@@ -89,7 +89,7 @@ const ProfileNotFound = styled.div`
      text-align: center;
 
      & h2 {
-        font-size: 15px;
+        font-size: 20px;
      }
 
      & p {
