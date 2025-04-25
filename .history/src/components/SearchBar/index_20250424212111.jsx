@@ -22,7 +22,7 @@ const InputStyled = styled.input`
         color: transparent;
     }
 
-    @media only screen and (max-width: 480px) {
+    @media only screen and (max-width: 440px) {
     width: 16rem;
     }
 `

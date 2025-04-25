@@ -31,9 +31,6 @@ const ProfileStyled = styled.div`
             height: 100px;
         }
     }
-    @media only screen and (max-width: 768px) {
-        width: 500px;
-    }
 `
 
 const ProfileInfoStyled = styled.div`

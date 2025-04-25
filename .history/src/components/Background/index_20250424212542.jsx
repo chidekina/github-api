@@ -68,8 +68,7 @@ const MainStyled = styled.main`
         height: 32rem;
     }
 
-    @media only screen and (max-width: 768px) {
-        width: 40rem;
+    @media only screen and (max-width: 480px) {
     }
 `
 

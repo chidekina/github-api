@@ -39,8 +39,8 @@ const Elipse2 = styled.img`
     @media only screen and (max-width: 480px) {
         width: 14rem;
     }
-    @media only screen and (max-width: 768px) {
-        width: 20rem;
+    @media only screen and (max-width: 480px) {
+    
     }
 `
 const Layer = styled.img`
@@ -66,10 +66,6 @@ const MainStyled = styled.main`
     @media only screen and (max-width: 480px) {
         width: 20rem;
         height: 32rem;
-    }
-
-    @media only screen and (max-width: 768px) {
-        width: 40rem;
     }
 `
 

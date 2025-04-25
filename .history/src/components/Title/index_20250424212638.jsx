@@ -34,13 +34,13 @@ const TitleContainer = styled.div`
     }
 
     @media only screen and (max-width: 768px) {
-    .git-mark {
-    width: 8%;
+        .git-mark {
+    width: 12%;
     object-fit: contain;
     height: fit-content;
 }
     .git-logo {
-    width: 24%;
+    width: 36%;
     object-fit: contain;
     height: fit-content;
     }
